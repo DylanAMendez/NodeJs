@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-1",
+  "version": "1.0.0",
+  "description": "Este es mi primer ejercicio Node en Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Ejercicio01Node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "primerejercicio"
+  ],
+  "author": "Dylan A. Mendez",
+  "license": "ISC"
+}
