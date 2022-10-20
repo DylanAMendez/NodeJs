@@ -15,10 +15,15 @@ const peliculas = [
 const nueva_Lista_Fecha = peliculas.filter(obj => obj.fecha > 2010 )
 console.log(nueva_Lista_Fecha)
 
-const nueva_Lista_Director = peliculas.map(obj => obj.director === "string")
+const nueva_Lista_Director = peliculas.map(peliculas => {
+    return peliculas.director
+})
 console.log(nueva_Lista_Director)
 
-const nueva_Lista_Peliculas = peliculas.map(obj => obj.peliculas )
+const nueva_Lista_Peliculas = peliculas.map(peliculas => {
+    return peliculas.titulo
+})
+console.log(nueva_Lista_Peliculas)
 
 const lista_directores = ["J.K Rowling", "Guillermo del toro", "J.K Rowling_2"];
 const lista_peliculas = ["Harry Potter", "Harry potter camara secreta", "Harry Potter caliz de fuego"];
