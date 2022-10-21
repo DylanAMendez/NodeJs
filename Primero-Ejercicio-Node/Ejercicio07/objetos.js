@@ -9,7 +9,7 @@ const datos_personales = {
 const miEdad = datos_personales.edad;
 console.log(miEdad)
 
-const nuevaLista_datos_personales = {...datos_personales};
+const nuevaLista_datos_personales = [{...datos_personales}];
 console.log(nuevaLista_datos_personales)
 
 const mejoresAmigos = [{
