@@ -9,21 +9,19 @@ const datos_personales = {
 const miEdad = datos_personales.edad;
 console.log(miEdad)
 
-const nuevaLista_datos_personales = [{...datos_personales}];
-console.log(nuevaLista_datos_personales)
+const nuevaLista_Bffs = [{ 
+           ...datos_personales 
+               },
+         { nombre: "pepito",
+         apellido: "pep",
+             edad: 44,
+           altura: 1.44,
+eresDesarrollador: false },
+         { nombre: "pepitaa",
+         apellido: "peppp",
+             edad: 77,
+           altura: 1.77,
+eresDesarrollador: false }];
 
-const mejoresAmigos = [{
-    nombre: "pepito",
-    apellido: "pep",
-    edad: 44,
-    altura: 1.44,
-    eresDesarrollador: false},
-    { nombre: "pepitaa",
-    apellido: "peppp",
-    edad: 77,
-    altura: 1.77,
-    eresDesarrollador: false
-    }]
-
-const listaPorEdad = mejoresAmigos.sort((a, b) => a.edad - b.edad);
+const listaPorEdad = nuevaLista_Bffs.sort((a, b) => a.edad - b.edad);
 console.log(listaPorEdad)
