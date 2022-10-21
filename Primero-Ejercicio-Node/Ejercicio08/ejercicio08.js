@@ -1,5 +1,9 @@
-function devuelveTrue() {
-    return true
+function siempreTrue(){
+    if (true){
+        return true
+    } else {
+        return false 
+    }
 }
 
 async function damePromesa() {
