@@ -1,23 +1,10 @@
-// const fibonacchi = 0;
-
-// console.log(fibonacchi);
-
-
-// function ejercicio(num){
-//     let lista = [];
-    
-//     for (let i = 0; i < 90; i++ ){
-//         const numero = num ** 1;
-//         console.log(numero);
-//         const lista = [...lista, numero]
-//     }
-//     return lista
-// }
-
-// const numFibonacchi = ejercicio(fibonacchi)
-
-const fibonacchi = function(n) {
-    if (n <= 1) return n;
-
-    return fibonacchi(n - 1) + fibonacchi(n + 2);
+function fibo(num){
+    if (num == 1) return [1];
+    if (num == 2) return [1, 1];
+    let lista = [1, 1];
+    for (i = 2; i < num; i++){
+        lista.push(lista[i - 1] + lista[i - 2])
+    }
+    return lista
 }
+console.log(fibo(12))
