@@ -1,4 +1,4 @@
-function fibo(num){
+function Fibo(num){
     if (num == 1) return [1];
     if (num == 2) return [1, 1];
     let lista = [1, 1];
@@ -7,4 +7,4 @@ function fibo(num){
     }
     return lista
 }
-console.log(fibo(12))
+console.log(Fibo(12))
